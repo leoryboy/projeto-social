@@ -42,3 +42,20 @@ iframe#tela {
     width: 267px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /* img arredondadas */
+    box-shadow: 2px 2px 5px black; 
+    box-sizing: border-box; /*para incluir as bordas e o preenchimento (padding) na largura e altura total de um elemento, em vez de adicioná-los fora do espaço definido para o conteúdo*/
+}
+section#redes-sociais img:hover {
+    border: 2px solid rgba(0, 0, 0, 0.26);
+    transform: translate(-3px, -3px); /* move o elemento horizontalmente (eixo x) e verticalmente (eixo y) para a esquerda e para cima, em 3 pixels cada.*/
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s; /* tempo de transição */
+}
